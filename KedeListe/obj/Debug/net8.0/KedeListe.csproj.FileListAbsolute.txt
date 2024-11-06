@@ -1,0 +1,14 @@
+/home/jacob/Projects/Skole/KedeListe/KedeListe/bin/Debug/net8.0/KedeListe
+/home/jacob/Projects/Skole/KedeListe/KedeListe/bin/Debug/net8.0/KedeListe.deps.json
+/home/jacob/Projects/Skole/KedeListe/KedeListe/bin/Debug/net8.0/KedeListe.runtimeconfig.json
+/home/jacob/Projects/Skole/KedeListe/KedeListe/bin/Debug/net8.0/KedeListe.dll
+/home/jacob/Projects/Skole/KedeListe/KedeListe/bin/Debug/net8.0/KedeListe.pdb
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.GeneratedMSBuildEditorConfig.editorconfig
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.AssemblyInfoInputs.cache
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.AssemblyInfo.cs
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.csproj.CoreCompileInputs.cache
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.dll
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/refint/KedeListe.dll
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.pdb
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/KedeListe.genruntimeconfig.cache
+/home/jacob/Projects/Skole/KedeListe/KedeListe/obj/Debug/net8.0/ref/KedeListe.dll
