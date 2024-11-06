@@ -45,14 +45,14 @@ public class ChainList<T>
     public string? To_String()
     {
         Element<T>? current = First;
+        List<string?> elemts = new List<string?>();
         while (current != null)
-        {
-            Console.Write(current.Data + " ");
+        {   
+            elemts.Add(current.Data.ToString());
             current = current.Next;
         }
 
-        Console.WriteLine();
-        return null;
+        return string.Join(" | ", elemts);
     }
     
     public void Sort()

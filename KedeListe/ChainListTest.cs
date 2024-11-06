@@ -62,6 +62,24 @@ public class ChainListTest
         Assert.Null(list.First);
         Assert.Equal(0, list.Count());
     }
-    
-    
+
+
+    [Theory]
+    [InlineData(new int[] { 3242143, 4, 4, 1, 456345 })]
+    // [InlineData("sdasdasd,sadsd,ads")]
+    public void CanCompareString(int[] data)
+    {
+        // Arrange
+        ChainList<int> list = new();
+        var dataCount = data.Count();
+
+        for (int i = 0; i < dataCount; i++)
+            list.Add_First(data[i]);
+
+        // Act
+        list.Sort();
+        
+        // Assert
+        var a = list.To_String();
+    }
 }
