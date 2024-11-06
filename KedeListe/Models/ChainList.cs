@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace KedeListe.Models;
 
 public class ChainList<T>
@@ -6,6 +8,14 @@ public class ChainList<T>
     private int _count = 0;
 
     public void Add_First(T data)
+    {
+            Element<T> newElement = new Element<T>(data);
+            newElement.Next = First;
+            First = newElement;
+            _count++;
+
+    }
+    public void Add(T data)
     {
         Element<T> newElement = new Element<T>(data);
 
@@ -117,7 +127,7 @@ public class ChainList<T>
         return false;
     }
     
-    private int Compare(T x, T y)
+    internal int Compare(T x, T y)
     {
         if (x is string strX && y is string strY)
         {
