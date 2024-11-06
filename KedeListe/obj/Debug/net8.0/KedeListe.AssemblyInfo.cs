@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KedeListe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00777b0f322ee5610b202590149986968c940651")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76c3afd05e0f609bdd9fd9bce34861f5e947162b")]
 [assembly: System.Reflection.AssemblyProductAttribute("KedeListe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KedeListe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

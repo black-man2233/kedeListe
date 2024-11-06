@@ -77,6 +77,45 @@ public class ChainList<T>
             }
         } while (swapped);
     }
+
+    public void Reverse()
+    {
+        if (First == null || First.Next == null)
+        {
+            return;
+        }
+
+        Element<T>? prev = null;
+        Element<T>? current = First;
+        Element<T>? next = null;
+
+        while (current != null)
+        {
+            next = current.Next; 
+            current.Next = prev;
+            
+            prev = current;
+            current = next;
+        }
+
+        First = prev;
+    }
+
+    public bool Exist(T data)
+    {
+        Element<T>? current = First;
+        while (current != null)
+        {
+            if (Object.Equals(current.Data, data))
+            {
+                return true;
+            }
+
+            current = current.Next;
+        }
+
+        return false;
+    }
     
     private int Compare(T x, T y)
     {
